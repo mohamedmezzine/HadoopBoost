@@ -1,15 +1,115 @@
 # HadoopBoost
 
-This repository is currently being cleaned and documented for portfolio presentation.
+Responsive static website for a Big Data / Hadoop service concept.
 
-## Status
+## Overview
 
-Documentation cleanup in progress.
+HadoopBoost is a front-end web project presenting a fictional Big Data service platform. The website is designed around Hadoop-related consulting and infrastructure services: secure cluster deployment, data analytics, operational optimization, real-time decision support, and customer-experience improvement.
+
+The project is not a Hadoop backend implementation. It is a **business-facing website prototype** that demonstrates how a Big Data service could be marketed through a professional landing page.
+
+## Project Goal
+
+The goal of this project is to build a clean and responsive company website for a Hadoop / Big Data solution provider. It focuses on:
+
+- presenting services clearly;
+- explaining the business value of Big Data;
+- offering pricing plans;
+- creating a consultation/contact flow;
+- adapting a Bootstrap template into a domain-specific website.
+
+## Main Features
+
+- Responsive landing page
+- Navigation menu with pages for About, Services, Blog, Pricing, Team, Testimonials, Quote, and Contact
+- Hero carousel introducing the Big Data value proposition
+- Service cards for security, analytics, operations optimization, decision support, and customer experience
+- Pricing plan section with storage and processing capacity examples
+- Consultation call-to-action
+- Contact information and social links
+- Bootstrap-based visual layout
+- Font Awesome and Bootstrap Icons integration
+- Animation and carousel libraries
+
+## Repository Structure
+
+```text
+.
+├── hadoopboostwebpage/
+│   └── startup-website-template/
+│       ├── index.html          # Main landing page
+│       ├── about.html          # About page
+│       ├── service.html        # Services page
+│       ├── price.html          # Pricing plans
+│       ├── contact.html        # Contact page
+│       ├── quote.html          # Consultation page
+│       ├── css/                # Bootstrap and custom styling
+│       ├── js/                 # Template JavaScript
+│       ├── lib/                # Front-end libraries
+│       └── img/                # Website images
+└── README.md
+```
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Font Awesome
+- Bootstrap Icons
+- Owl Carousel
+- Animate.css / WOW.js-style animations
+
+## How to Run Locally
+
+### Option 1: Open directly
+
+Open this file in your browser:
+
+```text
+hadoopboostwebpage/startup-website-template/index.html
+```
+
+### Option 2: Run with a local server
+
+From inside the template folder:
+
+```bash
+cd hadoopboostwebpage/startup-website-template
+python -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
+
+## What I Learned
+
+- Customizing a professional Bootstrap template
+- Building a multi-page static website
+- Structuring business content for a technical service
+- Using responsive layout components
+- Presenting Big Data services in a recruiter-friendly portfolio format
+
+## Current Limitations
+
+- Some template text should still be cleaned or translated consistently.
+- The project is front-end only and does not include a Hadoop backend.
+- Contact forms and quote forms are static unless connected to a backend.
+- Pricing examples are illustrative and not linked to real billing logic.
 
 ## Next Improvements
 
-- Add a short project overview
-- Add the tech stack
-- Add setup and run instructions
-- Add screenshots or sample outputs
-- Explain the main features and results
+- Add screenshots to this README.
+- Clean all remaining template placeholder text.
+- Make the language consistent: either fully French or fully English.
+- Add a deployed GitHub Pages link.
+- Add form validation and backend submission.
+- Rename the repository to `hadoop-service-website` or `hadoopboost-landing-page`.
+
+## Recruiter Summary
+
+This project shows front-end development, Bootstrap customization, responsive layout work, and the ability to communicate a technical Big Data concept through a professional web interface.
