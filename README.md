@@ -4,13 +4,13 @@ Responsive static website for a Big Data / Hadoop service concept.
 
 ## Overview
 
-HadoopBoost is a front-end web project presenting a fictional Big Data service platform. The website is designed around Hadoop-related consulting and infrastructure services: secure cluster deployment, data analytics, operational optimization, real-time decision support, and customer-experience improvement.
+HadoopBoost is a front-end web project presenting a Big Data service platform. The website is built around Hadoop-related consulting and infrastructure services: secure cluster deployment, data analytics, operational optimization, real-time decision support, and customer-experience improvement.
 
-The project is not a Hadoop backend implementation. It is a **business-facing website prototype** that demonstrates how a Big Data service could be marketed through a professional landing page.
+The project is a static website prototype. It does not include a Hadoop backend or data-processing engine.
 
 ## Project Goal
 
-The goal of this project is to build a clean and responsive company website for a Hadoop / Big Data solution provider. It focuses on:
+The goal is to build a clean company website for a Hadoop / Big Data solution provider. The website focuses on:
 
 - presenting services clearly;
 - explaining the business value of Big Data;
@@ -37,16 +37,16 @@ The goal of this project is to build a clean and responsive company website for 
 .
 ├── hadoopboostwebpage/
 │   └── startup-website-template/
-│       ├── index.html          # Main landing page
-│       ├── about.html          # About page
-│       ├── service.html        # Services page
-│       ├── price.html          # Pricing plans
-│       ├── contact.html        # Contact page
-│       ├── quote.html          # Consultation page
-│       ├── css/                # Bootstrap and custom styling
-│       ├── js/                 # Template JavaScript
-│       ├── lib/                # Front-end libraries
-│       └── img/                # Website images
+│       ├── index.html
+│       ├── about.html
+│       ├── service.html
+│       ├── price.html
+│       ├── contact.html
+│       ├── quote.html
+│       ├── css/
+│       ├── js/
+│       ├── lib/
+│       └── img/
 └── README.md
 ```
 
@@ -86,30 +86,8 @@ Then open:
 http://localhost:8000
 ```
 
-## What I Learned
+## Notes
 
-- Customizing a professional Bootstrap template
-- Building a multi-page static website
-- Structuring business content for a technical service
-- Using responsive layout components
-- Presenting Big Data services in a recruiter-friendly portfolio format
-
-## Current Limitations
-
-- Some template text should still be cleaned or translated consistently.
-- The project is front-end only and does not include a Hadoop backend.
+- Some pages still mix English and French content.
 - Contact forms and quote forms are static unless connected to a backend.
-- Pricing examples are illustrative and not linked to real billing logic.
-
-## Next Improvements
-
-- Add screenshots to this README.
-- Clean all remaining template placeholder text.
-- Make the language consistent: either fully French or fully English.
-- Add a deployed GitHub Pages link.
-- Add form validation and backend submission.
-- Rename the repository to `hadoop-service-website` or `hadoopboost-landing-page`.
-
-## Recruiter Summary
-
-This project shows front-end development, Bootstrap customization, responsive layout work, and the ability to communicate a technical Big Data concept through a professional web interface.
+- Pricing examples are illustrative and not linked to billing logic.
